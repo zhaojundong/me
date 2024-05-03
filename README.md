@@ -1,5 +1,7 @@
 # JD.ZHAO的GPG公钥发布页
 
+
+<pre>
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA256
 
@@ -17,3 +19,4 @@ a7hSAP94f/EHLZdn+vYhTUG4pkXtAIK2iu9Xpo3GGADeDBG0TwD+NjolDcQkkyv5
 rgem7ZNQhBJ/ZYrfcb9OfLnnrjT3C8E=
 =t+SR
 -----END PGP SIGNATURE-----
+</pre>
