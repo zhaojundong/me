@@ -1,7 +1,9 @@
 # JD.ZHAO的GPG公钥发布页
+The public key publication page of JD.ZHAO
 
 
 <pre>
+
 
 
 
@@ -12,35 +14,50 @@ Hash: SHA256
 我的有效公钥已经上传到该页面供分发和下载使用
 同时https://key.jdzhao.com
 也是我的权威公钥发布页面
-最近的一次公钥更新和签名发生在2024年5月7日
-由于我的YUBIKEY 5不支持DSA算法
-我新增了用于签名的RSA子密钥
-该处签名由我本人最新的密钥进行签发
+最近的一次公钥更新和签名发生在2024年5月27日
+主要变化：
+1.注销了前期的DSA子密钥
+2.新增了用于签名的EdDSA子密钥
+指纹（EFA8 55A4 1F66 6E47 3C47  283F 13ED 6233 E491 66A5）
+3.在2024年5月27日前用于签名的RSA子密钥
+（EA91 B7AD 1A90 E7B1 104C  F9B0 EA4C 7FFD 87BA 8C16）
+在其过期前仍然有效，但不再签发新的内容
+
 
 时间轴证明：
-JD.ZHAO (7000A102) -public-2024-5-7.asc.sig 文件HASH值：
-f4a531127fd9baa48f47cc0dad0fc4b3f37fac49f318102c3345ae8c729e0b9f
-JD.ZHAO (7000A102) -public-2024-5-7.asc 文件HASH值：
-0b1a19c1e3cf9858362fd804fcce66cf1fb12973b207b5d196c4817a1b5e01dd
+JD.ZHAO (7000A102) -public-2024-5-27.asc 文件HASH值：
+ef0b9dd1ea69bb0ea020a2e8e533dbb36e711657bfe9679626247dd82c99b38c
+JD.ZHAO (7000A102) -public-2024-5-27.asc.sig 文件HASH值：
+100502bf78c45c616229db04d1967c8e38e72f835dc7aaf27d8bfbc8a9766f04
 
-上述文件已在2024年5月14日经opentimestamps时间戳进行时间证明。
-The above files have been time-certified with opentimestamps timestamps on May 14, 2024.
+上述文件已在2024年5月27日经opentimestamps时间戳进行时间证明。
+
+My valid public key has been uploaded to this page for distribution and download.
+At the same time, https://key.jdzhao.com is also my authoritative public key publication page.
+The latest public key update and signature occurred on May 27, 2024.
+Major changes:
+
+Revoked the previous DSA subkey.
+Added a new EdDSA subkey for signing.
+Fingerprint (EFA8 55A4 1F66 6E47 3C47 283F 13ED 6233 E491 66A5).
+The RSA subkey used for signing before May 27, 2024
+(EA91 B7AD 1A90 E7B1 104C F9B0 EA4C 7FFD 87BA 8C16)
+is still valid until its expiration but will no longer issue new content.
+Timestamp Proof:
+JD.ZHAO (7000A102) -public-2024-5-27.asc file HASH value:
+ef0b9dd1ea69bb0ea020a2e8e533dbb36e711657bfe9679626247dd82c99b38c
+JD.ZHAO (7000A102) -public-2024-5-27.asc.sig file HASH value:
+100502bf78c45c616229db04d1967c8e38e72f835dc7aaf27d8bfbc8a9766f04
+
+The above files have been timestamped by opentimestamps on May 27, 2024.
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEE6pG3rRqQ57EQTPmw6kx//Ye6jBYFAmZDB2oACgkQ6kx//Ye6
-jBYArRAAgugcX95vd2sVM6qL79mNxkceH22KGRtx+O42OQwf4z3Q0mjZl7IAtAbl
-Yd7iUkKOAx/DIKd5qMFwy7RE/TCMhjAmkU+MOAZ918rU5eAfFnTuiLh+6fY8yw0p
-bRIe721dP4CCG7SGWCndgXfjT/ZEwKH6NOCHiACgHih+UN8kD+GkN1xcFvCo13mL
-SKRrhdgl4IDV8QI9GI2BXxHf6PY9TAwgp872ij7jRalUIh26vKH8wg6vf8LwQYEX
-fK58hSHUnPbJYQfFcQ1nw2NSoHtudjKzAZ5ErvoYWmUz5pn5zKESiYiA4dVptyeK
-32Zu7Lv9DYjh4wz12rvC8ba3dEmrHJx/5jPly06X88BVm9JU/U05oW5puq5LFfMj
-hH7Pu71a853MrLY7FALaHY49+hzn5PMYJlBiQv/uovPv0jh+OXHXmlyrXZACuGMz
-J0U1M5q86fOyFCQrigMGn4GKU8vzdfKiAnrstUAxIzLL6ce0xrZPO2eZJcsem0Dl
-NHI0x8DOnRHAMhuExvbKn4rkTSu96xu7SwshM9768ts8w+KPZqhVJFUtQArtKlm+
-Zt6Rw1h3kfcR7CnYnkUxxCyoT5rH9qVD/xQZPcpD9W8WD/YEpnkYi+IaxE5RQ6aI
-2bw8VgZNFKjVcFA3BHtr4deIOrePANC556c4TKaWCXZoA057Tyo=
-=3LDE
+iHUEARYIAB0WIQTvqFWkH2ZuRzxHKD8T7WIz5JFmpQUCZlRDpgAKCRAT7WIz5JFm
+pUcUAP9n9R+IrU/jgMdtNpXjsU5dCYXlYqLvCdqLPcNCcQgHcAEAj16TpbXJFVtG
+BaEozEpHdwxTwdcyYToiZtMmw8H1Kgg=
+=SCEv
 -----END PGP SIGNATURE-----
+
 
 
 
